@@ -1,5 +1,10 @@
-export const typography = {
+interface typographyType {
+  primary: string;
+  primaryBold: string;
+  bold: string;
+}
+export const typography: typographyType = {
   primary: "LeagueSpartan-Regular",
   primaryBold: "LeagueSpartan-Bold",
-  scondary: "Antonio-Medium",
+  bold: "Antonio-Medium",
 };
